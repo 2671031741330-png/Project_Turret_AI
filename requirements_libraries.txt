@@ -1,0 +1,20 @@
+# ขั้นตอนการติดตั้งไลบรารีสำหรับโปรเจกต์ Project_Turret_AI
+
+# 1) เข้าไปยังโฟลเดอร์โปรเจกต์
+cd /home/boomaie/Desktop/Project_Turret_AI
+
+# 2) เข้าใช้งาน Virtual Environment (venv)
+source venv/bin/activate
+
+# 3) ติดตั้งไลบรารีที่จำเป็น
+pip install numpy==1.26.4
+pip install opencv-contrib-python==4.8.1.78
+pip install dlib
+pip install gpiozero
+pip install adafruit-blinka
+pip install adafruit-circuitpython-pca9685
+
+# หมายเหตุ:
+# หากมีไฟล์ requirements.txt อยู่ในโฟลเดอร์โปรเจกต์
+# สามารถติดตั้งทั้งหมดด้วยคำสั่งเดียวได้ดังนี้
+pip install -r requirements.txt
