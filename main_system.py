@@ -101,7 +101,7 @@ last_box = None
 # ============================================================ #
 # Controls warning sounds when an unknown face is detected.
 
-BUZZER_PIN = 22
+BUZZER_PIN = 24
 UNKNOWN_ALARM_DELAY = 10.0
 RAPID_BEEP_ON = 0.08
 RAPID_BEEP_OFF = 0.08
